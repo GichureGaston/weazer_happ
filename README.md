@@ -1,7 +1,7 @@
 # weather app
 ![Screenshot_20250117_100954.jpg](Screenshot_20250117_100954.jpg)
 
-From ![Weather App • Flutter - Bloc & API Tutorial for Beginners](https://www.youtube.com/watch?v=MMq4wkeHkPc)
+From [Weather App • Flutter - Bloc & API Tutorial for Beginners](https://www.youtube.com/watch?v=MMq4wkeHkPc)
 ## Getting Started
 
 This project is a starting point for a Flutter application.
