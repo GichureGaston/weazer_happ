@@ -21,7 +21,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: FutureBuilder(
-            future: _determinePosition(),
+            future: determinePosition(),
             builder: (context, snap) {
               if (snap.hasData) {
                 return BlocProvider(
@@ -38,7 +38,7 @@ class MainApp extends StatelessWidget {
   }
 }
 
-Future<Position> _determinePosition() async {
+Future<Position> determinePosition() async {
   bool serviceEnabled;
   LocationPermission permission;
 
